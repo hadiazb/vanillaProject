@@ -1,0 +1,23 @@
+.footer {
+  padding: 0 30px;
+  height: 150px;
+  background-color: #1d1919;
+  color: rgb(245, 245, 245);
+
+  &__block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-section {
+      height: 90%;
+      width: 340px;
+
+      & .title {
+        font-weight: 200;
+      }
+    }
+  }
+}
