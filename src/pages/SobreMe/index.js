@@ -1,7 +1,7 @@
 import './style.scss';
 
 const SobreMe = () => `
-    <h1>This the Sobre Me</h1>
+    <div class="sobreme">This the Sobre me</div>
   `;
 
 export default SobreMe;

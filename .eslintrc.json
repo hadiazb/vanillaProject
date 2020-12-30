@@ -9,6 +9,8 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "no-restricted-globals": "off",
+    "comma-dangle": "off"
   }
 }

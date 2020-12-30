@@ -1,6 +1,5 @@
-import Header from './template/Header/index';
-import Footer from './template/Footer/index';
-import './styles/Global.scss';
+import router from './routes/index';
 
-document.getElementById('header').innerHTML = Header();
-document.getElementById('footer').innerHTML = Footer();
+window.addEventListener('load', router.render());
+window.addEventListener('hashchange', router.render());
+console.log(router);

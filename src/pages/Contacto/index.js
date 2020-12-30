@@ -1,7 +1,7 @@
 import './style.scss';
 
 const Contacto = () => `
-    <h1>This the Contacto</h1>
+    <div class="contacto">This the Contacto</div>
   `;
 
 export default Contacto;

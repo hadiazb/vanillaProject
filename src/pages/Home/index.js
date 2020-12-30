@@ -1,7 +1,7 @@
 import './style.scss';
 
 const Home = () => `
-    <h1>This the Home</h1>
+    <div class="home">This the Home</div>
   `;
 
 export default Home;
